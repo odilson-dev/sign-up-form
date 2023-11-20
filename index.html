@@ -9,49 +9,57 @@
 <body>
     <div class="content">
         <div class="image-side">
-            <p><img src="" alt="">Odin</p>
+            <div class="odin-title-box">
+                <p id="odin"><img src="images/odin-lined.png" alt="odin-lined" width="60" height="80">Odin</p>
+            </div>
+            
         </div>
         <div class="form-side">
-            <p>This is not a real online service! You know you need something like this in your life, to help you realize your deepest dreams. Sign up now to get started.</p>
-            <p>You know you want to</p>
+            <p>This is not a real online service! You know you need something like this in your life, to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+            <p>You <i>know</i> you want to</p>
             <div class="form">
-                <p>Let's do this!</p>
                 <form action="" method="post">
-                    <div class="form_inputs">
-                        <ul>
-                            <li>
-                                <label for="first_name">First Name:</label>
-                                <input type="text" id="first_name" name="first_name">
-                            </li>
-    
-                            <li>
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email">
-                            </li>
-                                
-                            <li>
-                                <label for="password">Password:</label>
-                                <input type="password" id="password" name="password" >
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <label for="last_name">Last Name</label>
-                                <input type="text" id="last_name" name="last_name">
-                            </li>
-    
-                            <li>
-                                <label for="phone_number">Phone Number:</label>
-                                <input type="number" id="phone_number" name="phone_number">
-                            </li>
-    
-                            <li>
-                                <label for="confirm_password">Confirm Password:</label>
-                                <input type="password" id="confirm_password" name="confirm_password">
-                            </li>
-                        </ul>
+                    <div class="form-content">
+                        <p>Let's do this!</p>
+                        <div class="form-inputs">
+                        
+                            <ul>
+                                <li>
+                                    <label for="first_name">First Name</label><br>
+                                    <input required type="text" id="first_name" name="first_name">
+                                </li>
+        
+                                <li>
+                                    <label for="email">Email</label><br>
+                                    <input required type="email" id="email" name="email">
+                                </li>
+                                    
+                                <li>
+                                    <label  for="password">Password</label><br>
+                                    <input required class="error" type="password" id="password" name="password" >
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <label for="last_name">Last Name</label><br>
+                                    <input required type="text" id="last_name" name="last_name">
+                                </li>
+        
+                                <li>
+                                    <label for="phone_number">Phone Number</label><br>
+                                    <input required type="number" id="phone_number" maxlength="10" name="phone_number">
+                                </li>
+        
+                                <li>
+                                    <label  for="confirm_password">Confirm Password</label><br>
+                                    <input required class="error" type="password" id="confirm_password" name="confirm_password">
+                                </li>
+                            </ul>
 
+                        </div>
                     </div>
+                    
+
                    <button type="submit">Create Account</button>
 
                 </form>
