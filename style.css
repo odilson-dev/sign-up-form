@@ -6,6 +6,9 @@
 *{
     font-family: Helvetica, sans-serif;
 }
+body{
+    margin: 0;
+}
 .content{
     width: auto;
     display: flex;
@@ -102,9 +105,9 @@ input{
 }
 
 input:invalid {
-    border-color: red;
+    border-color: rgb(226, 27, 27);
   }
   
 input:valid {
-    border-color: green;
+    border-color: rgb(10, 211, 10);
   }
